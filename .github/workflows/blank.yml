@@ -2,7 +2,4 @@ curl --request POST \
     --url https://74.199.244.190:31001/c/login \
     --cookie @cookies.txt \
     --data '{
-        "method": "getDiscoveryItem",
-        "data": [1],
-        "type": "rpc",
-        "tid": 1}'
+      }'
