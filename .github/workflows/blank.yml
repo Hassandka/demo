@@ -3,8 +3,6 @@ curl --request POST \
     --cookie @cookies.txt \
     --data '{
 {
-  "action": "JobSummaryManagement",
-  "method": "getJobInfo",
   "tid": "1",
   "type": "rpc",
   "message": null,
