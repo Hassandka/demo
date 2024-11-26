@@ -1,5 +1,1 @@
-curl --request POST 
-    --url https://74.199.244.190:31001/c/login \
-    --cookie @cookies.txt \
-    --data '{
-      }'
+curl --cookie-jar cookies.txt --url https://74.199.244.190:31001/c/login --data 'username=Hassan&password=P@ssw0rd@123
