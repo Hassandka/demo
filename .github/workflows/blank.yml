@@ -3,11 +3,6 @@ curl --request POST \
     --cookie @cookies.txt \
     --data '{
 {
-  "tid": "1",
-  "type": "rpc",
-  "message": null,
-  "where": null,
-  "cause": null,
   "data": {
     "children": [
       {
