@@ -2,24 +2,13 @@ curl --request POST \
     --url https://74.199.244.190:31001/c/login \
     --cookie @cookies.txt \
     --data '{
-{
-  "data": {
-    "children": [
-      {
-        "name": "Backup job for VMware",
-        "id": 3,
-        "vid": "JOB-3",
-        "hvType": "VMWARE",
-        "hvTypeBackupCount": {
-          "VMWARE": 1
-        },
         "hvTypeBackupHasRootDiskCount": {
 
         },
         "status": "GREEN",
         "jobType": "BACKUP",
-        "added": "2024-05-09T15:54:54.092+07:00",
-        "updated": "2024-05-09T15:54:54.092+07:00",
+        "added": "2024-10-09T15:54:54.092+07:00",
+        "updated": "2024-11-09T15:54:54.092+07:00",
         "vmCount": 1,
         "vmTemplateCount": 0,
         "diskCount": 1,
