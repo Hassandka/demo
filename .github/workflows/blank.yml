@@ -9,8 +9,6 @@ curl --request POST \
     --url https://74.199.244.190:31001/c/login \
     --cookie @cookies.txt \
     --data '{
-        "tid": 1}'
-
 {
   "action": "JobSummaryManagement",
   "method": "getJobInfo",
