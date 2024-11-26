@@ -1,10 +1,8 @@
 curl --request POST \
-    --url https://74.199.244.190:31001/c/login \
+    --url https://74.199.244.190:31001 \
     --header "content-type: application/json" \
     --cookie @cookies.txt \
     --data '{
-        "action": "JobSummaryManagement",
-        "method": "getJobInfo",
         "data": [[1],0],
         "type": "rpc",
         "tid": 1}'
